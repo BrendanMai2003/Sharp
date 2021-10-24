@@ -6,7 +6,7 @@
 Everyone has experienced that moment when you find a lecture on a challenging academic topic only to find out that it's in an incomprehensible language. As the internet's user base increases in diversity, so will the amount of video lectures done in different languages. Therefore, something must be done about this language barrier. I set out to increase the accessibility of video lectures by creating an app that dubs videos in the user's preferred language while accurately lip syncing the video to the target language.
 
 ## What it does
-DeepEducation aims to eliminates the language barrier in education. It lets users dub lectures in over 40 languages using cutting-edge deep learning technology. To use it, users first have to log in using **Firebase Authentication**. Then, they can paste the YouTube link of their desired lecture and our web app will dub it while also syncing the speaker's lips to the dubbed audio to make the new video seem completely natural. 
+Sharp aims to eliminates the language barrier in education. It lets users dub lectures in over 40 languages using cutting-edge deep learning technology. To use it, users first have to log in using **Firebase Authentication**. Then, they can paste the YouTube link of their desired lecture and our web app will dub it while also syncing the speaker's lips to the dubbed audio to make the new video seem completely natural. 
 
 ## How I built it
 I used many libraries to create this, including but not limited to: **Google Cloud (Cloud Storage and Cloud Functions), Google OAuth, Google Cloud Speech-to-Text and Text-to-Speech API, Google Translate API, and Google Cloud Artificial Intelligence Platform**. I used Flask, Pytorch, Scikit-Learn, and OpenCV for the machine learning back-end and Tailwind CSS, React JS, and Chakra UI for the dashboard and landing page frontend. I also used OpenAI to generate summaries of video transcripts.
@@ -28,6 +28,6 @@ We're particularly proud of the ingenuity of our idea and how our app helps deal
 ## What I learned
 I learned a lot about how I could integrate **Google Cloud Platform** services in our web application and how it can quickly enhance our application's performance and provide a myriad of new features for our users.
 
-## What's next for DeepEducation
-I plan on continuing the development of DeepEducation after this hackathon. Some future improvements could be developing a more refined front-end and making the dubbed voice match not only the native language of the speaker, but also their personal tone, quirks, and inflections. Additionally, I will use **Google Cloud App Engine** to completely deploy our application so that users across the world can access our revolutionary platform. 
+## What's next for Sharp
+I plan on continuing the development of Sharp after this hackathon. Some future improvements could be developing a more refined front-end and making the dubbed voice match not only the native language of the speaker, but also their personal tone, quirks, and inflections. Additionally, I will use **Google Cloud App Engine** to completely deploy our application so that users across the world can access our revolutionary platform. 
 
