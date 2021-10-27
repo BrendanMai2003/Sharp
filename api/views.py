@@ -21,7 +21,7 @@ import subprocess
 import openai
 
 # Load your API key from an environment variable or secret management service
-openai.api_key = "sk-Wv52XAzrQQqoS1qEmh1XoyAMJ5Wc8vZEIT5A7dCo"
+openai.api_key = "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"
 
 views = Blueprint('views', __name__)
 
@@ -203,7 +203,7 @@ def replaceSpaces(string):
 
 def generate_url(video_title):
     video_title = replaceSpaces(video_title)
-    return "https://storage.cloud.google.com/deeped-videostorage/{}".format(video_title)
+    return "https://storage.cloud.google.com/sharp-vidstorage/{}".format(video_title)
 
 user = None
 @views.route("/home", methods=['POST'])
