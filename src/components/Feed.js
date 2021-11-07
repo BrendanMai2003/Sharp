@@ -280,7 +280,7 @@ export const Feed = () => {
                 fontWeight="bold"
                 textAlign="center"
               >
-                Translate To:
+                Translate From:
               </Text>
               <Select
                 isSearchable={true}
