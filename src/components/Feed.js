@@ -36,7 +36,7 @@ import * as React from "react";
 import { Posts } from "./Posts";
 import { VideoTable } from "./VideoTable";
 import { Navbar } from "./Navbar";
-import { LanguageSelect } from "./LanguageSelect";
+// import { LanguageSelect } from "./LanguageSelect";
 
 export const Feed = () => {
   let [posts, setPosts] = useState([]);
