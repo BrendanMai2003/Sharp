@@ -54,7 +54,7 @@ export const Login = () => {
           fontWeight="extrabold"
           color="twitter.100"
         >
-          DeepEducation
+          SilentVoice
         </Heading>
         <br />
         <Card rounded="xl">

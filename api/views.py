@@ -360,7 +360,7 @@ def translate():
         )
         source_blob_name = video_name + ".mp4"
         source_audname = video_name + ".mp3"
-        destination_file_name = "/Users/zeeshanpatel/DeepEducation/{}.mp4".format(video_name)
+        destination_file_name = "/Users/t/Sharp/{}.mp4".format(video_name)
         download_blob(BUCKET_NAME, source_blob_name, destination_file_name)
         with open(source_audname, "wb") as out:
                 # Write the response to the output file.

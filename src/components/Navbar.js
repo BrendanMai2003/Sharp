@@ -45,7 +45,7 @@ export const Navbar = () => {
               <ContactlessIcon fontSize="large" htmlColor="#0063d1" />
             </chakra.a>
             <chakra.h1 fontSize="2xl" fontWeight="bold" ml="2">
-              DeepEducation
+              SilentVoice
             </chakra.h1>
           </Flex>
           <HStack display="flex" alignItems="center" spacing={1}>

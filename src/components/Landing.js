@@ -112,7 +112,7 @@ export const Landing = ({ isSignedIn }) => {
                         display={{ base: "block", xl: "inline" }}
                         color="twitter.100"
                       >
-                        DeepEducation
+                        SilentVoice
                       </chakra.span>
                     </chakra.h1>
                     <chakra.p
@@ -124,7 +124,7 @@ export const Landing = ({ isSignedIn }) => {
                       lineHeight="base"
                     >
                       An educational platform that uses artificial intelligence
-                      to translate video content to increase educational equity
+                      to translate video content into sign language to increase educational equity
                       and accessibility.
                     </chakra.p>
                     <Stack
@@ -197,8 +197,8 @@ export const Landing = ({ isSignedIn }) => {
                   fontSize={{ base: "lg", md: "xl" }}
                   textAlign={{ base: "center", sm: "left" }}
                 >
-                  DeepEducation breaks language barriers by allowing learners to
-                  translate online educational videos into any language.
+                  SilentVoice breaks language barriers by allowing learners to
+                  translate online educational videos into sign language.
                 </chakra.p>
               </Box>
               <GridItem colSpan={2} color="white">
@@ -222,21 +222,20 @@ export const Landing = ({ isSignedIn }) => {
                     {" "}
                     Our amazing platform allows users to gain access to millions
                     of new educational videos. Learn about new cultures, ideas,
-                    and concepts by translating content to your preferred
+                    and concepts by translating content to sign
                     language 🗣
                   </Feature>
                   <Feature title="Take Notes on Important Concepts">
                     {" "}
-                    DeepEducation allows users to take notes and summarize video
+                    SilentVoice allows users to take notes and summarize video
                     transcripts to provide an efficient educational experience
                     ✍️{" "}
                   </Feature>
                   <Feature title="Accessibility">
                     {" "}
-                    Translate educational videos in over 40 languages and
-                    generate translated transcripts to easily follow along. Additionally,
-                    our DeepDub feature uses a neural network for face manipulation, making the videos
-                    much more natural 📚
+                    Translate educational videos of any language into sign language and
+                    generate translated transcripts to easily follow along. Can translate over 40 languages
+                    into ASL 📚
                   </Feature>
                   <Feature title="Organize Your Learning Journey">
                     {" "}
@@ -309,7 +308,7 @@ export const Landing = ({ isSignedIn }) => {
                         display={{ base: "block", xl: "inline" }}
                         color="twitter.100"
                       >
-                        DeepEducation
+                        SilentVoice
                       </chakra.span>
                     </chakra.h1>
                     <chakra.p
@@ -321,7 +320,7 @@ export const Landing = ({ isSignedIn }) => {
                       lineHeight="base"
                     >
                       An educational platform that uses artificial intelligence
-                      to translate video content to increase educational equity
+                      to translate video content into sign language to increase educational equity
                       and accessibility.
                     </chakra.p>
                     <Stack
@@ -336,7 +335,7 @@ export const Landing = ({ isSignedIn }) => {
                         bgGradient="linear(to-r, blue.100, blue.300)"
                         onClick={goToLogin}
                       >
-                        Start Your Learning Journey
+                        Start Learning
                       </Button>
                     </Stack>
                   </Box>
@@ -394,8 +393,8 @@ export const Landing = ({ isSignedIn }) => {
                   fontSize={{ base: "lg", md: "xl" }}
                   textAlign={{ base: "center", sm: "left" }}
                 >
-                  DeepEducation breaks language barriers by allowing learners to
-                  translate online educational videos into any language.
+                  SilentVoice breaks language barriers by allowing learners to
+                  translate online educational videos into sign language.
                 </chakra.p>
               </Box>
               <GridItem colSpan={2} color="white">
@@ -419,21 +418,20 @@ export const Landing = ({ isSignedIn }) => {
                     {" "}
                     Our amazing platform allows users to gain access to millions
                     of new educational videos. Learn about new cultures, ideas,
-                    and concepts by translating content to your preferred
+                    and concepts by translating content to sign
                     language 🗣
                   </Feature>
                   <Feature title="Take Notes on Important Concepts">
                     {" "}
-                    DeepEducation allows users to take notes and summarize video
+                    SilentVoice allows users to take notes and summarize video
                     transcripts to provide an efficient educational experience
                     ✍️{" "}
                   </Feature>
                   <Feature title="Accessibility">
                     {" "}
-                    Translate educational videos in over 40 languages and
-                    generate translated transcripts to easily follow along. Additionally,
-                    our DeepDub feature uses a neural network for face manipulation, making the videos
-                    much more natural 📚
+                    Translate educational videos of any language into sign language and
+                    generate translated transcripts to easily follow along. Can translate over 40 languages
+                    into ASL 📚
                   </Feature>
                   <Feature title="Organize Your Learning Journey">
                     {" "}
